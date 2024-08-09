@@ -18,7 +18,7 @@ resource "aws_vpc" "main" {
   instance_tenancy = "default"
 
   tags = {
-    Name =  var.tag_main
+    Name = var.tag_main
   }
 }
 
